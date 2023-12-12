@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DoYourTask_AOL" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/material_dynamic_primary50</item>
+        <item name="colorPrimaryDark">@color/material_dynamic_primary50</item>
+        <item name="colorAccent">@color/white</item>
+
+    </style>
+
+    <style name="Theme.DoYourTask_AOL" parent="Theme.AppCompat.Light.DarkActionBar"/>
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="FloatingDialog" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

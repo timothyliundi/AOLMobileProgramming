@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AboutActivity">
+
+    <TextView
+    android:id="@+id/tvTask"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="About"
+    android:layout_marginBottom="16dp"
+    android:layout_marginTop="16dp"
+    android:textSize="32sp"
+    android:textColor="@color/colorPrimary" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Team:"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2501964711 - Timothy Liundi"
+    android:layout_marginBottom="4dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2501970992 - Davine Ravael Gabriel"
+    android:layout_marginBottom="4dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2501962164 - Venansius ReynardI Tanaya"
+    android:layout_marginBottom="4dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="2501983130 - Muhammad Devin N.A.P."
+    android:layout_marginBottom="16dp" />
+
+    <!-- App Guides Section -->
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="App Guides:"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Swipe right -> Show task details"
+    android:layout_marginBottom="4dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Swipe left -> Delete task"
+    android:layout_marginBottom="16dp" />
+
+    <!-- App Guides Section -->
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="How to update task:"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="You can't. Just delete and create the new task."
+    android:layout_marginBottom="4dp" />
+</LinearLayout>
